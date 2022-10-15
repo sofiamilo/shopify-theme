@@ -9,6 +9,11 @@
       "command": "shopify theme serve"
     },
     {
+      "label": "pull",
+      "type": "shell",
+      "command": "shopify theme pull"
+    },
+    {
       "label": "login",
       "type": "shell",
       "command": "shopify login --store sofimilo.myshopify.com"

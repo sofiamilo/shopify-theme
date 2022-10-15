@@ -160,11 +160,17 @@
         "blocks": {
           "footer-0": {
             "type": "link_list",
-            "settings": { "heading": "Quick links", "menu": "footer" }
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
           },
           "footer-1": {
             "type": "link_list",
-            "settings": { "heading": "Info", "menu": "footer" }
+            "settings": {
+              "heading": "Info",
+              "menu": "footer"
+            }
           },
           "footer-2": {
             "type": "text",
@@ -198,7 +204,9 @@
       },
       "main-password-footer": {
         "type": "main-password-footer",
-        "settings": { "color_scheme": "background-1" }
+        "settings": {
+          "color_scheme": "background-1"
+        }
       }
     }
   },
@@ -364,11 +372,17 @@
           "blocks": {
             "footer-0": {
               "type": "link_list",
-              "settings": { "heading": "Quick links", "menu": "footer" }
+              "settings": {
+                "heading": "Quick links",
+                "menu": "footer"
+              }
             },
             "footer-1": {
               "type": "link_list",
-              "settings": { "heading": "Info", "menu": "footer" }
+              "settings": {
+                "heading": "Info",
+                "menu": "footer"
+              }
             },
             "footer-2": {
               "type": "text",
@@ -402,7 +416,9 @@
         },
         "main-password-footer": {
           "type": "main-password-footer",
-          "settings": { "color_scheme": "background-1" }
+          "settings": {
+            "color_scheme": "background-1"
+          }
         }
       }
     }

@@ -9,3 +9,6 @@ ehthumbs.db
 Thumbs.db
 node_modules
 *ignoreme*
+
+package.json
+package-lock.json

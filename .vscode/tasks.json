@@ -6,7 +6,7 @@
     {
       "label": "serve",
       "type": "shell",
-      "command": "shopify theme serve"
+      "command": "shopify theme serve --live-reload full-page --theme-editor-sync"
     },
     {
       "label": "pull",

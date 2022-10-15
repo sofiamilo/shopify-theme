@@ -10,7 +10,9 @@
   z-index: 3;
   border-bottom-right-radius: var(--popup-corner-radius);
   border-bottom-left-radius: var(--popup-corner-radius);
-  box-shadow: var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius) rgba(var(--color-shadow), var(--popup-shadow-opacity));
+  box-shadow: var(--popup-shadow-horizontal-offset)
+    var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius)
+    rgba(var(--color-shadow), var(--popup-shadow-opacity));
 }
 
 .predictive-search--search-template {
@@ -30,7 +32,6 @@
   .predictive-search {
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-
   }
 }
 
@@ -83,7 +84,9 @@ predictive-search[loading] .predictive-search__loading-state {
   padding: 1rem;
 }
 
-predictive-search[loading] .predictive-search__heading ~ .predictive-search__loading-state,
+predictive-search[loading]
+  .predictive-search__heading
+  ~ .predictive-search__loading-state,
 predictive-search[loading] .predictive-search__results-list:first-child {
   display: none;
 }
@@ -98,7 +101,8 @@ predictive-search[loading] .predictive-search__results-list:first-child {
   background-color: rgba(var(--color-foreground), 0.04);
 }
 
-.predictive-search__list-item[aria-selected="true"] .predictive-search__item-heading,
+.predictive-search__list-item[aria-selected="true"]
+  .predictive-search__item-heading,
 .predictive-search__list-item:hover .predictive-search__item-heading {
   text-decoration: underline;
   text-underline-offset: 0.3rem;
@@ -116,7 +120,7 @@ predictive-search[loading] .predictive-search__results-list:first-child {
   display: grid;
   grid-template-columns: 5rem 1fr;
   grid-column-gap: 2rem;
-  grid-template-areas: 'product-image product-content';
+  grid-template-areas: "product-image product-content";
 }
 
 .predictive-search__item-content {
@@ -173,5 +177,5 @@ predictive-search[loading] .predictive-search__results-list:first-child {
 .predictive-search__image {
   grid-area: product-image;
   object-fit: contain;
-  font-family: 'object-fit: contain';
+  font-family: "object-fit: contain";
 }

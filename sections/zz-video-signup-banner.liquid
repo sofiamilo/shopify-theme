@@ -5,11 +5,31 @@
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .full-size-child-video {}
-  .full-size-child-video > video {
-    width: 100%;
+  @media screen and (min-width: 750px) {
+    .full-size-child-video > video {
+      width: 100%;
+    }
   }
 
+  @media screen and (max-width: 749px) {
+    .full-size-child-video {
+      height: 50vh !important;
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+    }
+    #banner__media{{ section.id }} {
+      height: 50rem;
+    }
+  }
+
+
+  @media screen and (max-width: 749px) {
+    #Banner-{{ section.id }} {
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+    }
+  }
 
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
@@ -39,7 +59,10 @@
   class="email-signup-banner banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.image_height == 'adapt-image' and section.settings.video != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
 >
   {%- if section.settings.show_background_image -%}
-    <div class="banner__media{% if section.settings.video != blank %} media{% endif %}">
+    <div
+      id="banner__media{{ section.id }}"
+      class="banner__media{% if section.settings.video != blank %} media{% endif %}"
+    >
       {%- if section.settings.video != blank -%}
         <div class="full-size-child-video">
           {{ section.settings.video | video_tag: autoplay: true, loop: true, muted: true }}

@@ -121,6 +121,12 @@
     "cart_type": "notification",
     "show_vendor": false,
     "show_cart_note": false,
+    "checkout_logo_position": "left",
+    "checkout_body_background_color": "#ffd9d9",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_accent_color": "#613838",
+    "checkout_button_color": "#613838",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

@@ -143,6 +143,14 @@
         "padding_bottom": 36
       }
     },
+    "d1ed5ef0-5c1c-4fb7-b89f-215d6ea9b340": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
     "video": {
       "type": "video",
       "settings": {
@@ -215,6 +223,7 @@
     "rich_text",
     "featured_collection",
     "collage",
+    "d1ed5ef0-5c1c-4fb7-b89f-215d6ea9b340",
     "video",
     "multicolumn"
   ]

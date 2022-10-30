@@ -134,6 +134,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Welcome to our store",
               "text_alignment": "center",
@@ -153,7 +154,7 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "{{ shop.brand.logo }}",
-          "logo_width": 90,
+          "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
@@ -161,8 +162,8 @@
           "enable_sticky_header": true,
           "mobile_logo_position": "center",
           "margin_bottom": 0,
-          "padding_top": 20,
-          "padding_bottom": 20
+          "padding_top": 4,
+          "padding_bottom": 4
         }
       },
       "footer": {

@@ -55,7 +55,7 @@
 
 <div
   id="Banner-{{ section.id }}"
-  style="min-height: 80vh"
+  style="height: 100%"
   class="email-signup-banner banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.image_height == 'adapt-image' and section.settings.video != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
 >
   {%- if section.settings.show_background_image -%}
@@ -65,7 +65,14 @@
     >
       {%- if section.settings.video != blank -%}
         <div class="full-size-child-video">
-          {{ section.settings.video | video_tag: autoplay: true, loop: true, muted: true }}
+          {{
+            section.settings.video
+            | video_tag:
+              autoplay: true,
+              loop: true,
+              muted: true,
+              style: 'position: absolute; min-width: 100%; min-height: 100%; top: 50%; left: 50%; transform: translate(-50%, -50%); object-fit: cover;'
+          }}
         </div>
         {%- comment -%}
            <video controls="controls" style="max-width: 100%; height: auto;">

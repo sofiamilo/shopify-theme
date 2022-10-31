@@ -26,8 +26,8 @@
         "template--16454813614401__847ed868-184a-4a88-92f3-a47cb25c4986-16671960945ef61c9a-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Map",
+            "button_link": "https:\/\/g.page\/bysofimilo?share",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",

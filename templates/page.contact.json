@@ -10,13 +10,6 @@
     "847ed868-184a-4a88-92f3-a47cb25c4986": {
       "type": "rich-text",
       "blocks": {
-        "template--16454813614401__847ed868-184a-4a88-92f3-a47cb25c4986-16671960945ef61c9a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
         "template--16454813614401__847ed868-184a-4a88-92f3-a47cb25c4986-16671960945ef61c9a-1": {
           "type": "text",
           "settings": {
@@ -36,7 +29,6 @@
         }
       },
       "block_order": [
-        "template--16454813614401__847ed868-184a-4a88-92f3-a47cb25c4986-16671960945ef61c9a-0",
         "template--16454813614401__847ed868-184a-4a88-92f3-a47cb25c4986-16671960945ef61c9a-1",
         "template--16454813614401__847ed868-184a-4a88-92f3-a47cb25c4986-16671960945ef61c9a-2"
       ],

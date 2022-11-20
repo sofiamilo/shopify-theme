@@ -1,5 +1,14 @@
 {
   "sections": {
+    "499878dc-2f8d-41b4-a4f7-b87c9f28b5c5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<a href=\"\/collections\/all\" style=\"text-decoration: none;\" >\n<h2>← Back to all products<\/h2>\n<\/a>\n<\/div>",
+        "color_scheme": "background-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -28,6 +37,7 @@
     }
   },
   "order": [
+    "499878dc-2f8d-41b4-a4f7-b87c9f28b5c5",
     "banner",
     "product-grid"
   ]

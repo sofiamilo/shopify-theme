@@ -12,13 +12,11 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -28,8 +26,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -39,24 +36,14 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "<p>Polyester 90%, elastin 10%<\/p>",
-            "page": ""
-          }
+          "settings": {}
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "<p>Please check our Shipping & Returns Policy <a href=\"http:\/\/stavitipolicies.com\" target=\"_blank\" title=\"here\">here<\/a>.<\/p>",
+            "content": "<p>Please check our Shipping & Returns Policy <a href=\"http://stavitipolicies.com\" target=\"_blank\" title=\"here\">here</a>.</p>",
             "page": ""
           }
         },
@@ -65,7 +52,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "<p>Please check our Dimensions <a href=\"http:\/\/stavitipolicies.com\" target=\"_blank\" title=\"here\">here<\/a>.<\/p>",
+            "content": "<p>Please check our Dimensions <a href=\"http://stavitipolicies.com\" target=\"_blank\" title=\"here\">here</a>.</p>",
             "page": ""
           }
         },
@@ -74,7 +61,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "<p>Dry clean only.<\/p>",
+            "content": "<p>Dry clean only.</p>",
             "page": ""
           }
         },
@@ -93,7 +80,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
@@ -124,15 +110,12 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         }
       },
-      "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
-      ],
+      "block_order": ["image-with-text-0", "image-with-text-1"],
       "settings": {
         "height": "small",
         "desktop_image_width": "medium",
@@ -153,7 +136,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -162,16 +145,13 @@
           "type": "column",
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
-      "block_order": [
-        "column-0",
-        "column-1"
-      ],
+      "block_order": ["column-0", "column-1"],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -207,10 +187,5 @@
       }
     }
   },
-  "order": [
-    "main",
-    "image-with-text",
-    "multicolumn",
-    "product-recommendations"
-  ]
+  "order": ["main", "image-with-text", "multicolumn", "product-recommendations"]
 }
